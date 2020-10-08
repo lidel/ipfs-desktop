@@ -74,7 +74,10 @@ snap:
     - github
 
 publish:
-  - github
+  - provider: github
+    repo: ipfs-desktop
+    owner: lidel
+
 
 protocols:
   - name: IPFS
